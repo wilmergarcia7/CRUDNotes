@@ -10,10 +10,10 @@ const NoteSchema = new Schema(
       type: String,
       required: true,
     },
-  /*  user: {
+    user: {
       type: String,
       required: true,
-    },*/
+    },
   },
   {
     timestamps: true,
@@ -21,4 +21,3 @@ const NoteSchema = new Schema(
 );
 
 module.exports =model("Note", NoteSchema);
-//export default model("Note", NoteSchema);
